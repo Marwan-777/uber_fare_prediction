@@ -22,6 +22,13 @@ import requests
 url = 'https://uber-fare-model-4j2w2fn3sq-uc.a.run.app/predict'
 response = requests.post(url, json=data)
 ```
+**data** object is a dictionary of lists that should contain the following features:
+- **`pickup_datetime`**: Timestamp (Date and time when the ride was requested)
+- **`pickup_longitude`**: Float (Longitude of the pickup location)
+- **`pickup_latitude`**: Float (Latitude of the pickup location)
+- **`dropoff_longitude`**: Float (Longitude of the dropoff location)
+- **`dropoff_latitude`**: Float (Latitude of the dropoff location)
+- **`passenger_count`**: Integer (Number of passengers)
 
 ## 🛠️ Technologies Used
 - **Python**
