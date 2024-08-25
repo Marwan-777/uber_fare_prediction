@@ -1,7 +1,7 @@
 # 🚖 Uber Fare Prediction Web Service
 
 ## 📝 Problem Statement
-A web service is needed to predict Uber fares, which should be up and running for real-time fare predictions.
+A web service is needed to predict Uber fares, which should be up and running for live fare predictions.
 
 ## 💡 Solution Overview
 To address this, the following steps were undertaken:
