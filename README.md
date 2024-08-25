@@ -16,7 +16,12 @@ To address this, the following steps were undertaken:
 The app is deployed on GCP Cloud Run to ensure it can scale based on demand.
 
 ## 📦 Usage
-Once the container is running, the web service will be available to make predictions for Uber fares.
+You can make predictions for Uber fares using the following code snippet:
+```
+import requests
+url = 'https://uber-fare-model-4j2w2fn3sq-uc.a.run.app/predict'
+response = requests.post(url, json=data)
+```
 
 ## 🛠️ Technologies Used
 - **Python**
