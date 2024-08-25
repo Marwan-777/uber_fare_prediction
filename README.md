@@ -30,6 +30,8 @@ response = requests.post(url, json=data)
 - **`dropoff_latitude`**: Float (Latitude of the dropoff location)
 - **`passenger_count`**: Integer (Number of passengers)
 
+You can refer to production/API_cloud_test.ipynb notebook as an example
+
 ## 🛠️ Technologies Used
 - **Python**
 - **Flask**
